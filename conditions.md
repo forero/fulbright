@@ -51,3 +51,6 @@ appreciate the significance of the project and any potential contributions to th
 * 700 character limit, use Roman characters only.   
 * This abstract is meant to serve as a brief summary of the more detailed project statement.  
 * Avoid using hard returns in your response.  
+
+## Budget
+21K - 5 months project.
