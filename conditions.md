@@ -35,3 +35,19 @@ necessary to conduct the research onsite in the United States.
 * Duration: Explain how the project can be completed within the time period proposed.  
 * English Proficiency: Describe your schooling in English, use of English and competence level in 
 speaking, reading and writing.  
+
+## Project Title
+* The project title should succinctly describe the focus of the award activity. For
+example:
+o Evaluating Fundamental Tax Reforms in a Globalizing World
+o Crashworthiness and Rollover Stability of Heavy-Duty Tanker Trucks
+For teaching/research awards, distinguish between both components, separating
+them with a semicolon.
+* Maximum 160 characters
+
+## Summary of Project Statement
+* In a few sentences, provide a concise overview that easily allows non-specialists to
+appreciate the significance of the project and any potential contributions to the field.  
+* 700 character limit, use Roman characters only.   
+* This abstract is meant to serve as a brief summary of the more detailed project statement.  
+* Avoid using hard returns in your response.  
