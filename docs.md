@@ -1,6 +1,6 @@
-- [] Project Statement
-- [] Curriculum Vitae
-- [] Letter of Invitation (Schlegel)
+- [ ] Project Statement
+- [ ] Curriculum Vitae
+- [ ] Letter of Invitation (Schlegel)
 - [X] English Language Proficiency (IELTS)
 - [] Budget
 - [] Old DS-1029
