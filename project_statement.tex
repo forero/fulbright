@@ -1,10 +1,20 @@
 \documentclass[12pt]{article}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\textwidth}{440pt}
+\setlength{\topmargin}{-40pt}
+\addtolength{\hoffset}{+1.0cm}
+\addtolength{\textheight}{4cm}
 \usepackage{hyperref}
-
+\usepackage{fancyhdr}
+\usepackage{apacite}
+%\fancyhead[RE,LO]{Message of the day} 
+\fancyhead[L]{Jaime E. Forero-Romero, Colombia} 
 \title{Pushing the Limits of Dark Energy Experiments}
 \author{Jaime E. Forero-Romero\\Universidad de los Andes\\Colombia}
 \begin{document}
 \maketitle
+\pagestyle{empty}
+\pagestyle{fancy}
 \section*{Background}
 %\textit{Introduce the research topic. Place the project in academic or
 %professional context by referring to major works by others on the
@@ -14,7 +24,7 @@ Understanding the accelerated expansion of the Universe is one the
 biggest unsolved problems in fundamental physics.  
 This was recognized by the 2011 Physics Nobel Prize to three
 astronomers who lead the research teams that found observational evidence for
-this phenomenon.  
+this phenomenon \cite{1998AJ....116.1009R,1999ApJ...517..565P}.  
 The main reason for its protagonism in fundamental physics is that a
 complete understanding of the accelerated expansion lies either on a
 new kind of negative pressure energy component (dubbed under the
@@ -26,12 +36,13 @@ experiment that is designed to bring the most significant experimental
 advance on this front. 
 DESI will take the spectra of 35 million galaxies to make the most
 accurate measurement of the expansion history of the Universe on the
-timescale 2019-2024 using the Baryon Acoustic Oscillation technique.  
+timescale 2019-2024 using the Baryon Acoustic Oscillation technique
+\cite{2005ApJ...633..560E,2005MNRAS.362..505C}.    
 DESI will be the leading experiment in observational cosmology during
 that period.  
 
-One of the significant milestones to prepare DESI is a {\bf full simulation
-of its expected five years of operations}. 
+One of the significant milestones to prepare DESI is a full simulation
+of its expected five years of operations. 
 This simulation will test all the software components that will be used on
 the real data. It will also help to test strategies to  maximize
 DESI's scientific return.   
@@ -39,12 +50,14 @@ The results of this simulation exercise will also be useful to the
 broad scientific community expecting to use DESI data products. 
  
 The work to simulate such a complex experiment integrates the knowledge of
-different groups of experts \cite{2016A&C....15....1N}. 
+different groups of experts \cite{2016A&C....15....1N} building up on
+the accumulated experience of recent experiments of the same
+kind\cite{2013AJ....145...10D}.  
 From the engineers designing   the instrument, to the astronomers
 processing the data, including the expert simulators of universes and
 galaxies. 
-In this project we will work with data from this simulation process to
-quantify how close DESI will get to answer fundamental questions about
+In this project we will work with data from this simulation effort to
+help DESI in getting closer to answer fundamental questions about
 the nature of our Universe.  
 
 %I have been involved in the full simulation process during the last two
@@ -62,10 +75,6 @@ the nature of our Universe.
 %unknown with DESI. What do we need to do to take the experiment beyond its
 %original design limits? Where are exactly DESI's power and limits for
 %discovery?  
-
-\bibliography{references}{}
-\bibliographystyle{plain}
-
 
 
 \section*{Objectives}
@@ -97,18 +106,14 @@ This will allow us to reach three goals:
 This project aims at quantifying the expected performance of the DESI
 experiment. 
 This requires an end-to-end simulation of the DESI survey including:
-\begin{itemize}
-\item generating mock catalogs for the galaxy populations to be
-  observed.
-\item simulations the 5 years of telescope operations including
-  weather and observational cadence.
-\item assigning optical fibers to the targets.
-\item generating simulations of the raw spectrograph data.
-\item processing those simulated data with the full spectroscopic
-  pipeline, resulting in a redshift catalog.
-\end{itemize}
+generating mock catalogs for the galaxy populations to be
+  observed, simulating the 5 years of telescope operations including
+  weather and observational cadence, assigning optical fibers to the
+  galaxy targets, generating simulations of the raw spectrograph data and
+  processing those simulated data with the full spectroscopic
+  pipeline, resulting in a redshift catalog. 
 
-This will allow the DESI project to test dataflows, check software
+This process allows the DESI project to test dataflows, check software
 scaling  and generate realistic datasets for science preparation before
 survey starts. The current project proposal takes a starting point the
 realistic datasets for science preparation. Using this data we will
@@ -271,5 +276,12 @@ The experience we gain in this one-year preparation period ensures that
 being able to do focused work during 16 weeks on site at LBL, using
 mostly existing tools, is the only critical step to succeed in the
 global analysis task. 
+
+\newpage
+
+\bibliographystyle{apacite}
+%\bibliographystyle{ieeetr}
+\bibliography{references}{}
+
 
 \end{document}
